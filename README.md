@@ -18,15 +18,15 @@ I will be discussing improvements at the end.
 When the user logs in, they will be presented with their profile, this is done through a simple query that gets the users ID from the textbox on the log in page and collects all the data from the users table in the database using the ID. 
 The user's personal information such as gender or hometown, are found through selecting the column in the table and displaying them in a textbox. 
 
-<INSERT PIC HERE>
+![usersprofile](https://user-images.githubusercontent.com/57363879/80376469-c251d600-8891-11ea-9f35-122a6763db84.PNG)
   
   
 Also on the profile page, the user can identify the friends that they currently have, as well as the messages they have sent, the message table was a simple query where the datagrid is populated with all the information in the message table where the user ID is the same as the one in the log in page. 
-Whereas the friends datagrid was a bit harder to pull off, as I had to inner join the user table with the friends table, this was to find the friend id and use it in the user table to display the frist and last name of the friend/s. 
+Whereas the friends datagrid was a bit harder to pull off, as I had to inner join the user table with the friends table, this was to find the friend id and use it in the user table to display the first and last name of the friend/s. 
 
 
 
-<INSERT PIC HERE>
+![userProfile2](https://user-images.githubusercontent.com/57363879/80376508-d269b580-8891-11ea-970a-3b4ad685704e.PNG)
   
 
 Included on the profile page are the workplaces and the universities the user has attended or currently attending. If the user has no universities or workplaces then the datagrid table will be empty. 
